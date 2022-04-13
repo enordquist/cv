@@ -1,0 +1,13 @@
+This is my CV. I started out in an Overleaf template called Clean CV.
+
+Now I just compile it locally when I make a small update. It took a few steps to get to that point:
+
+epspdf: tool used to generate the pdf version of my computational chemistry glyph, with the name latexmk required
+needed to install some extra libraries on top of texlive, namely texlive-bibtex-extras and texlive-fonts-extra
+
+using latexmk, which is the same as Overleaf currently. see here: https://www.overleaf.com/learn/how-to/How_does_Overleaf_compile_my_project%3F
+
+the command to compile:
+  latexmk -pdf
+
+May need to rerun biber enordquist_cv

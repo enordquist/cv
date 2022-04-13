@@ -1,0 +1,150 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{Paladin}{article}{}
+      \name{author}{6}{}{%
+        {{hash=9ca8cc9b4ea8c4c621451366a6191a9e}{%
+           family={Nordquist},
+           familyi={N\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a443ab5a8ef054e9a1b6167e03f7b7c3}{%
+           family={English},
+           familyi={E\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fbbd39c3311e3fab1992aa51f88c464e}{%
+           family={Clerico},
+           familyi={C\bibinitperiod},
+           given={Eugenia},
+           giveni={E\bibinitperiod}}}%
+        {{hash=39d3573de832baa4910237ccc07de6da}{%
+           family={Sherman},
+           familyi={S\bibinitperiod},
+           given={Woody},
+           giveni={W\bibinitperiod}}}%
+        {{hash=20104191d7a40d8e5bbc4a5022aabc84}{%
+           family={Gierasch},
+           familyi={G\bibinitperiod},
+           given={Lila},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2215b97062210839affe8436a652adba}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jianhan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d56ac2ea37c5afa580cd9cc669ff70e8}
+      \strng{fullhash}{2b8e122e627bb6a424757ddc96cf05d8}
+      \strng{bibnamehash}{d56ac2ea37c5afa580cd9cc669ff70e8}
+      \strng{authorbibnamehash}{d56ac2ea37c5afa580cd9cc669ff70e8}
+      \strng{authornamehash}{d56ac2ea37c5afa580cd9cc669ff70e8}
+      \strng{authorfullhash}{2b8e122e627bb6a424757ddc96cf05d8}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS Computational Biology}
+      \field{title}{Physics-Based Modeling Provides Predictive Understanding of Selectively Promiscuous Substrate Binding by Hsp70 Chaperones}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1009567
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pcbi.1009567
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pcbi.1009567
+      \endverb
+      \keyw{YEAR-2021}
+    \endentry
+    \entry{GBMV2}{article}{}
+      \name{author}{7}{}{%
+        {{hash=76764a2e0c4e50b2e2b54c2c02fd86d7}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Xiping},
+           giveni={X\bibinitperiod}}}%
+        {{hash=44796ae41a9a98ba204b921fa830b8ec}{%
+           family={Chiricotto},
+           familyi={C\bibinitperiod},
+           given={Mara},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e218b94f2d02c22a9710ea1e67a14e16}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaorong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9ca8cc9b4ea8c4c621451366a6191a9e}{%
+           family={Nordquist},
+           familyi={N\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=946d3340c93e9e8dc4db4b5a1de3634c}{%
+           family={Feig},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e7c631994f3221234123a712cf50935f}{%
+           family={Brooks},
+           familyi={B\bibinitperiod},
+           given={III},
+           giveni={I\bibinitperiod},
+           suffix={Charles\bibnamedelima L.},
+           suffixi={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=2215b97062210839affe8436a652adba}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jianhan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e43351411f500fdbb66b611181ab293d}
+      \strng{fullhash}{84e38d68dde779bff889a32ca8082cb9}
+      \strng{bibnamehash}{e43351411f500fdbb66b611181ab293d}
+      \strng{authorbibnamehash}{e43351411f500fdbb66b611181ab293d}
+      \strng{authornamehash}{e43351411f500fdbb66b611181ab293d}
+      \strng{authorfullhash}{84e38d68dde779bff889a32ca8082cb9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computational Chemistry}
+      \field{title}{Accelerating the Generalized Born with Molecular Volume and Solvent Accessible Surface Area Implicit Solvent Model Using Graphics Processing Units}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1002/JCC.26133
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/JCC.26133
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/JCC.26133
+      \endverb
+      \keyw{YEAR-2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,161 @@
+\documentclass{clean_cv}
+
+% Add a BibTeX-style file encoding all of your publications to include here. You can export this from Zotero. Only include
+% publications you want to appear here!
+\addbibresource{publications.bib}
+
+
+\begin{document}
+\author{Erik Nordquist}
+%\headlineposition{PhD Candidate}
+\maketitle
+% In this section, you can use any of the FontAwesome icons. The commands \faCenter and \faCenterStyle have been defined to properly center the icons
+% when using the default font settings.
+%
+% You can use any of the icons listed in the fontawesome5 package documentation (https://ctan.math.utah.edu/ctan/tex-archive/fonts/fontawesome5/doc/fontawesome5.pdf)
+% If you need to specify a specific style (as is done here for the address card), you should use the two-argument \faCenterCycle command
+\begin{center}
+\begin{tabular}{lll}
+    %\faCenter{envelope} \href{mailto:erikbnordquist@gmail.com}{erikbnordquist@gmail.com}  & \faCenter{phone-alt} 217-381-4252 & \faCenterStyle{regular}{address-card} 1040 N Pleasant St Apt 406 Amherst MA 01002\\
+    %\faCenter{orcid} \href{https://orcid.org/0000-0001-9139-0152}{0000-0001-9139-0152} & \faCenter{github} \href{https://github.com/enordquist}{enordquist} & \faCenter{globe} \url{https://eriknordquist.com} \\
+
+    \faCenter{envelope} \href{mailto:erikbnordquist@gmail.com}{erikbnordquist@gmail.com}  & \faCenter{linkedin} \href{https://www.linkedin.com/in/erik-nordquist}{erik-nordquist} & \compchem {} \href{https://www.eriknordquist.com}{eriknordquist.com}
+\end{tabular}
+\end{center}
+
+\vspace{-1.5em}
+
+\section{Education}
+
+% The datetabular environment takes one argument, which is the width of the left date column. As seen here:
+%   9em is a good choice for "dual-date" formats (e.g. Sep 2015 - Nov 2019).
+%   4em is a good choice for month/year dates (Sep 2014).
+%   2em is a good choice for year-only dates (as seen in the publications)
+\begin{datetabular}{6em}
+% This is just a tabular environment, for the most part. The dateentry command has been defined for
+% convienence. It takes two arguments, the first is the date and the second is whatever you wish placed to the right.
+\dateentry{--}{
+\textbf{Ph.D. Chemistry}{, University of Massachusetts Amherst}
+}
+\dateentry{2018}{
+\textbf{B.S. Chemistry and Math-Physics}{, The College of Idaho}
+}
+\end{datetabular}
+
+\section{Fellowships}
+\begin{datetabular}{6em}
+\dateentry{2020 -- 2022}{
+\textbf{Chemistry-Biology Interface (CBI) Fellowship}
+
+\href{https://cbi.chem.umass.edu}{Funded Traineeship through NIH and UMass}
+}
+% There is something seriously funky happening between the tabular commands and the end of the itemize blocks.
+% The command \eatvspace should be used if extra space appears at the end of a datetabular environment.
+\end{datetabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Publications
+%%%%%%%%%%%%%%%%%%%
+\section{Publications}
+\nocite{*} % Loads every entry from the attached .bib file
+% Highlight takes three entries, given name, given name initials, and family name.
+% If you have a middle initial, this call looks like:
+% \highlightauthorname{Bob H.}{B. H.}{Smith}
+\highlightauthorname{Erik}{E.}{Nordquist} 
+\begin{datetabular}{6em}
+%printbibyear has been defined to only print entries from a given citation year.
+\dateentry{2021}{\printbibyear{2021}}
+\dateentry{2020}{\printbibyear{2020}}
+\end{datetabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Teaching
+%%%%%%%%%%%%%%%%%%
+\section{Teaching}
+\begin{datetabular}{6em}
+\dateentry{2019 -- 2021}{
+\textbf{Undergraduates Mentored:}{ Samantha Schultz, Callie Jillson}
+}
+\end{datetabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Relevant Skills
+%%%%%%%%%%%%%%%%%%%%%%
+%\section{Relevant Skills}
+%\begin{datetabular}{6em}
+%\dateentry{Software and methods}{Molecular dynamics (Charmm, Gromacs, Plumed), Umbrella sampling, Metadynamics, %Rosetta, Bash, Unix, Python, Pandas, Scikit-learn, Sage, Mathematica}
+%\end{datetabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Presentations
+%%%%%%%%%%%%%%%%%%%%
+\section{Presentations}
+\begin{datetabular}{6em}
+
+\dateentry{2022}{
+\textbf{Biophysical Society Annual Meeting}
+\newline{"Free Energy of Hydrophobic Dewetting in Gating of BK Channels"}
+}
+
+\dateentry{2020}{
+\textbf{Northeastern Structural Symposium Research Talk}
+\newline{"Physical Origins of Selective Promiscuity to Hsp70s Revealed Through Physics-Based Modeling"}
+\newline{}\newline{}
+\textbf{UMass ResearchFest Poster}
+\newline{W.E. McEwen Poster Prize winner; "Physical Origins of Selective Promiscuity to Hsp70s Revealed Through Physics-Based Modeling"}
+}
+
+\dateentry{2019}{
+\textbf{Molecular Biophysics in the Northeast Poster Session}
+\newline{"Understanding the Origins of DnaK's Selective Promiscuity with Physics-based Modeling"}
+}
+\end{datetabular}
+
+%%%%%%%%%%%%%
+%% Professional Development
+%%%%%%%%%%%%%
+\section{Professional Development}
+\begin{datetabular}{6em}
+
+\dateentry{2021}{
+\textbf{Intro. to Evidence-based Undergraduate STEM Teaching}
+\newline{8-week CITRL-run course, incl. topics: active learning, formative assessments, backward design, etc.}
+\newline \newline
+\textbf{\href{https://www.inclusivestemteaching.org/}{The Inclusive STEM Teaching Project online course}}
+\newline{4-week CIRTL-run, evidence-based course on inclusive STEM teaching.}
+}
+
+
+\dateentry{2019}{
+\textbf{OpenACC GPU Hackathon at MIT}
+\newline{Parallelizing implementation of implicit solvent model GBMV2/SA}
+}
+\end{datetabular}
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Service
+%%%%%%%%%
+\section{Service}
+\begin{datetabular}{6em}
+
+\dateentry{2021}{
+\textbf{Journal Referee}
+\textbf{Biophysical Journal}{, reviewed 1 article}
+}
+
+\dateentry{2021}{
+\textbf{Search Committee for Grad Program Director}{, UMass Amherst Chem. Dept.}
+}
+\dateentry{2021 --}{
+\textbf{\href{https://www.emerginginvestigators.org/}{Journal for Emerging Investigators}}{, 11 articles reviewed to-date}
+}
+
+\dateentry{2020}{
+\textbf{CBI Alumni Networking Event}{, Organization Committee}
+}
+
+\dateentry{2019 -- 2021}{
+\textbf{Annual Chem Dept ResearchFest}{, Organization Committee}
+}
+\end{datetabular}
+
+\end{document}

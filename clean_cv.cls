@@ -2,7 +2,7 @@
 
 \LoadClass[11pt]{article}
 
-\RequirePackage[margin=0.5in]{geometry} % half-inch margins
+\RequirePackage[margin=1.0in]{geometry} % half-inch margins
 \RequirePackage{microtype}
 \RequirePackage{fancyhdr}
 \RequirePackage{titlesec}
